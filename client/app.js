@@ -33,11 +33,7 @@ $(document).ready(function() {
             var html = '<ul>';
 
             $.each(classData, function () {
-                //html += '<li><img src="' + this.src + '" alt="' + this.title + '"></li>';
                 html += "<li><p>" + this.name.bold() + "</p>" + "<p>" + this.description + "</p>" + "<p>" + "\"" + this.shoutout + "\"" + "</p></li>";
-                //html += '<li class="name" >' + this.name + '</li>';
-                //html += '<li class="description" >' + this.description + '</li>';
-                //html += '<li class="shoutout" >' + this.shoutout + '</li>';
             });
 
             html += '</ul>';

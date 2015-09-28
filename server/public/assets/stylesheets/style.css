@@ -1,14 +1,15 @@
 body {
-    background: url(/assets/10714333106_53807993ea_k.jpg) repeat-x fixed;
-    font-family: "TGoudy Old Style";
-    font-size: 22px;
-    color: darkslategrey;
-    margin: 80px auto;
-    padding: 0px;
-    line-height: 20px;
-    font-weight: normal;
-    background:
+    background-color: #f2f4ed;
+    font-family: Consolas, monaco, monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 22px;
+
+    /*background: url(/assets/10714333106_53807993ea_k.jpg) repeat-x fixed;*/
 }
+
 
 h1 {
     text-align: center;
@@ -29,7 +30,8 @@ p {
     background-color: #e0e8e0;
     margin: 20px auto;
     position: relative;
-    border: 5px solid #0d3349;
+    border: 5px solid #4E443C;
+    border-style: double;
     width: 600px;
     height: 400px;
     -webkit-border-radius: 5px;
